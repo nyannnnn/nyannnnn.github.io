@@ -3323,6 +3323,21 @@ table.alt tbody tr td {
   color: #eeeeee;
 }
 
+/* scrollbar */
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(transparent, #a6dcea);
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(transparent, #53c6e3);
+}
+
 /* Wrapper */
 
 #wrapper {
